@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./src/**/*.tsx"],
   theme: {
     extend: {
       backgroundImage: {
-        blur: "url(/src/assets/)",
+        ellipse: "url(/src/assets/ellipse-9.png)",
+        logos: "url(/src/assets/logos.png)",
       },
       fontFamily: {
         sans: "Manrope, sans-serif",
