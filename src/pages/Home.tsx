@@ -3,11 +3,13 @@ import {
   ArrowCircleLeft,
   ArrowCircleRight,
   ArrowRight,
+  CaretCircleDown,
   CheckCircle,
   Eye,
   PenNib,
   Sun,
 } from "phosphor-react";
+import Logo from "../components/Logo";
 
 export function Home() {
   return (
@@ -283,6 +285,217 @@ export function Home() {
                   </span>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section Six */}
+      <section className="px-24 py-[120px] bg-gray-50">
+        <img
+          className="mb-14 w-full"
+          src="/src/assets/work-03.png"
+          alt="Trabalho"
+        />
+        <div className=" flex items-start justify-between gap-5 w-full">
+          <h1 className="text-4xl text-black leading-10 w-3/4">
+            We connect our customers with the best, and help them keep up-and
+            stay open.
+          </h1>
+          <div className="flex flex-col items-end justify-start gap-8 w-full">
+            <div className="flex flex-1 items-center justify-between gap-3 pb-4 border-b-2 border-b-gray-400 w-[500px]">
+              <span className="text-xl font-sans text-black">
+                We connect our customers with the best?
+              </span>
+              <CaretCircleDown size={28} weight="fill" color="#000000" />
+            </div>
+            <div className="flex flex-1 items-center justify-between gap-3 pb-4 border-b-2 border-b-gray-400 w-[500px]">
+              <span className="text-xl font-sans text-black">
+                Android research & development rockstar?
+              </span>
+              <CaretCircleDown size={28} weight="fill" color="#000000" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section Seven */}
+      <section className="px-24 py-[120px] bg-gray-50">
+        <div className="flex flex-col items-center justify-evenly w-full px-24 py-14 mb-[79px] bg-gray-50">
+          <span className="text-sm text-gray-600 text-center">Our Blog</span>
+          <h1 className="text-5xl font-sans font-light text-blue-900 leading-relaxed text-center ">
+            Value proposition accelerator product management venture
+          </h1>
+        </div>
+        <div className="grid grid-cols-3 gap-10 place-items-start mb-[84px]">
+          {/* Card 1 */}
+          <div className="flex flex-col items-start gap-6">
+            <img
+              className="w-[300px] h-[209px]"
+              src="/src/assets/card-1.png"
+              alt="pessoa"
+            />
+            <div className="flex flex-col items-start gap-3 w-[300px] h-[139px]">
+              <div className="flex items-center gap-3">
+                <strong className="text-base font-sans text-blue-900">
+                  Category
+                </strong>
+                <span className="text-base text-gray-600 font-light">
+                  November 22, 2021
+                </span>
+              </div>
+              <p className="text-xl font-normal text-black leading-8">
+                Pitch termsheet backing validation focus release.
+              </p>
+            </div>
+            <div className="flex items-center gap-3">
+              <img src="/src/assets/user-04.png" alt="Rachel Green" />
+              <span className="text-base text-black font-normal">
+                Chandler Bing
+              </span>
+            </div>
+          </div>
+          {/* Card 2 */}
+          <div className="flex flex-col items-start gap-6">
+            <img
+              className="w-[300px] h-[209px]"
+              src="/src/assets/work-02.png"
+              alt="pessoa"
+            />
+            <div className="flex flex-col items-start gap-3 w-[300px] h-[139px]">
+              <div className="flex items-center gap-3">
+                <strong className="text-base font-sans text-blue-900">
+                  Category
+                </strong>
+                <span className="text-base text-gray-600 font-light">
+                  November 22, 2021
+                </span>
+              </div>
+              <p className="text-xl text-black leading-8">
+                Seed round direct mailing non-disclosure agreement graphical
+                user interface rockstar.
+              </p>
+            </div>
+            <div className="flex items-center gap-3">
+              <img src="/src/assets/user-05.png" alt="Chandler Bing" />
+              <span className="text-base text-black font-normal">
+                Rachel Green
+              </span>
+            </div>
+          </div>
+          {/* Card 3 */}
+          <div className="flex flex-col items-start gap-6">
+            <img
+              className="w-[300px] h-[209px]"
+              src="/src/assets/card-4.png"
+              alt="pessoa"
+            />
+            <div className="flex flex-col items-start gap-3 w-[300px] h-[139px]">
+              <div className="flex items-center gap-3">
+                <strong className="text-base font-sans text-blue-900">
+                  Category
+                </strong>
+                <span className="text-base text-gray-600 font-light">
+                  November 22, 2021
+                </span>
+              </div>
+              <p className="text-xl text-black leading-8">
+                Beta prototype sales iPad gen-z marketing network effects value
+                proposition
+              </p>
+            </div>
+            <div className="flex items-center gap-3">
+              <img src="/src/assets/user-06.png" alt="Monica Geller" />
+              <span className="text-base text-black font-normal">
+                Monica Geller
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center justify-center w-full">
+          <button className="px-14 py-4 border-2 border-blue-900 rounded-full text-xl font-bold text-blue-900">
+            Load more
+          </button>
+        </div>
+      </section>
+
+      {/* Section Eight */}
+      <section className="px-24 py-[120px] bg-gray-50">
+        <div className="flex items-center justify-center w-full h-[391px] rounded-lg bg-blue-900 bg-ellipse bg-auto bg-no-repeat bg-right-top">
+          <div className="flex flex-col items-center gap-12 w-[716px] h-[247px]">
+            <h1 className="text-5xl font-light text-gray-50 leading-relaxed text-center ">
+              An enterprise template to ramp up your company website
+            </h1>
+            <div className="flex items-center gap-5">
+              <input
+                className="bg-gray-50 text-black text-xl font-bold rounded-full px-14 py-4 w-96"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your email address"
+              />
+              <button
+                className="px-14 py-4 bg-green-400 text-blue-900 text-xl font-bold rounded-full"
+                type="submit"
+              >
+                Start now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section Nine  */}
+      <section className="px-24 py-[120px] bg-gray-50">
+        <div className="grid grid-rows-1 grid-cols-2 place-content-center">
+          <div className="grid grid-cols-1 gap-8">
+            <Logo color="dark" />
+            <p className="text-gray-400 text-base w-[400px]">
+              Social media validation business model canvas graphical user
+              interface launch party creative facebook iPad twitter.
+            </p>
+            <span className="text-gray-400 text-base">
+              All rights reserved.
+            </span>
+          </div>
+          <div className="grid grid-cols-3 justify-items-center">
+            <div className="flex flex-col items-start gap-8">
+              <strong className="text-xl text-black font-bold">Landing</strong>
+              <a href="#" className="text-gray-400">
+                Home
+              </a>
+              <a href="#" className="text-gray-400">
+                Products
+              </a>
+              <a href="#" className="text-gray-400">
+                Services
+              </a>
+            </div>
+            <div className="flex flex-col items-start gap-8">
+              <strong className="text-xl text-black font-bold">Company</strong>
+              <a href="#" className="text-gray-400">
+                Home
+              </a>
+              <a href="#" className="text-gray-400">
+                Careers
+              </a>
+              <a href="#" className="text-gray-400">
+                Services
+              </a>
+            </div>
+            <div className="flex flex-col items-start gap-8">
+              <strong className="text-xl text-black font-bold">
+                Reaources
+              </strong>
+              <a href="#" className="text-gray-400">
+                Blog
+              </a>
+              <a href="#" className="text-gray-400">
+                Products
+              </a>
+              <a href="#" className="text-gray-400">
+                Services
+              </a>
             </div>
           </div>
         </div>
